@@ -20,11 +20,14 @@
 ## Установка
 ```bash
 pip install pytest requests
+```
 
 ## Запуск тестов
 ```bash
 pytest -v test_avito_api.py
+``` 
 
 ## Генерация отчёта
 ```bash
 pytest --junitxml=report.xml test_avito_api.py
+```
